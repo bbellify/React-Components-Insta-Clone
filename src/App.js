@@ -40,8 +40,9 @@ const App = () => {
      } else {
          return post
        }
-  })); return newLikes
-};
+    })); 
+    return newLikes
+  };
 
   return (
     <div className='App'>
